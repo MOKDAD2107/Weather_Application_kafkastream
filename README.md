@@ -48,12 +48,19 @@ Big Data Processing 2024
 
 Exemple de Résultat
 Données dans le topic weather-data :
-Station1,25.3,60
+
+Station1,25.3,60  
+
 Station2,35.0,50
+
 Station2,40.0,45
+
 Station1,32.0,70
+
 Données publiées dans le topic station-averages :
+
 Station2 : Température Moyenne = 37.5°F, Humidité Moyenne = 47.5%
+
 Station1 : Température Moyenne = 31.65°F, Humidité Moyenne = 65%
 
 <h3>Résultat Attendue</h3>
