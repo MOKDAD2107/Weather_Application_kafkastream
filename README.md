@@ -40,22 +40,11 @@ Vous devez créer une application Kafka Streams pour effectuer les transformatio
 
 Big Data Processing 2024
 
-Mr. Abdelmajid BOUSSELHAM 2
 - Input : Station2,95.0,50 | Station2,98.6,40
 - Output : Station2,96.8,45
 5. Écrire les résultats
    Publiez les résultats agrégés dans un nouveau topic Kafka nommé 'station-averages'.
-   Contraintes
-- Utilisez les concepts de KStream, KTable, et KGroupedStream.
-- Gérer les données en assurant une sérialisation correcte.
-- Assurez un arrêt propre de l'application en ajoutant un hook.
-  Objectif
-  À la fin de l'exercice, votre application Kafka Streams doit :
-1. Lire les données météo depuis le topic 'weather-data'.
-2. Filtrer et transformer les relevés météorologiques.
-
-3. Publier les moyennes de température et d'humidité par station dans le topic 'station-
-   averages'.
+   Contraintes.
 
 Exemple de Résultat
 Données dans le topic weather-data :
